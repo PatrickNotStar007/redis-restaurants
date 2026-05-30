@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 app.use("/restaurants", restaurantsRouter);
-app.use("/cuisine", cuisinesRouterRouter);
+app.use("/cuisines", cuisinesRouterRouter);
 
 app.use(errorHandler);
 
